@@ -1,0 +1,58 @@
+container {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1 {
+	background-color: #00ffff;
+	color: black;
+	border-width: 1px;
+	border-color: #D6A800;
+	padding: 10px;
+}
+
+h2 {
+	background-color: #00e0e0;
+	color: black;
+	border-width: 1px;
+	border-color: #D6A800;
+	padding: 10px;
+}
+
+h3 {
+	background-color: #00d0d0;
+	color: black;
+	border-width: 1px;
+	border-color: #D6A800;
+	padding: 10px;
+}
+
+h4 {
+	background-color: #00c0c0;
+	color: black;
+	border-width: 1px;
+	border-color: #D6A800;
+	padding: 10px;
+}
+
+a {
+	color: #0080ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0000ff;
+}
+
+a:visited {
+	color: #800080;
+}
+
+
+
+
+
+
+
+
