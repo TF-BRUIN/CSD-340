@@ -1,0 +1,76 @@
+<!Truman Forey, Module 2.2 Assignment>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="forey_mod9_3.css">
+		<title>CSD 340 Development with HTML and CSS</title>
+		<script>
+			var add2000 = "2000";
+			var addGodot = "Godot";
+			var addPython = "Python";
+			var addCamilla = "Camilla";
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Assignment 9.3: JavaScript - Part 1</h1>
+			<h2>Chapter 2: CSS</h2>
+			<p class="intro">
+				Hello, my name is Truman Forey. I grew up here in Bellevue, Omaha and
+				I've lived here all my life. I'm currently 24 years old, my birthday
+				is May 12th, and I was born in the year <span id="blank1">_____</span>.
+			</p>
+			<button type="button"
+				onclick="document.getElementById('blank1').innerHTML = add2000">
+				Fill in Blank #1
+			</button>
+			<br>
+			<p>
+				Right now, I'm currently studying software development as my major in
+				Bellevue University. My ultimate goal is to become a video game
+				developer. I believe having a degree in general software 
+				development will allow me to transition into that industry easily. At the
+				moment, I'm currently building my own game in the <span id="blank2">
+				_______</span> game engine using <span id="blank3">_________</span>.
+			</p>
+			<button type="button"
+				onclick="document.getElementById('blank2').innerHTML = addGodot">
+				Fill in Blank #2
+			</button>
+			<br>
+			<br>
+			<button type="button"
+				onclick="document.getElementById('blank3').innerHTML = addPython">
+				Fill in Blank #3
+			</button>
+			<br>
+			<p>
+				Outside of my career, I live with my family and my pet cat,
+				<span id="blank4">_________</span>. I moved out during the entirety of
+				2024, but I moved back in to help save money until I graduate
+				in 2026. It's not an easy situation, but I'm sure I will
+				get through it.
+			</p>
+			<button type="button"
+				onclick="document.getElementById('blank4').innerHTML = addCamilla">
+				Fill in Blank #4
+			</button>
+			<br>
+			<hr>
+			<address>
+				<a href="https://www.bellevue.edu/">Bellevue University</a><br>
+				1000 Galvin Rd S<br>
+				Bellevue, NE 68005
+			</address>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
