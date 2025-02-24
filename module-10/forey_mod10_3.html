@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Truman Forey Module 10.3 Assignment 
+    
+    
+    
+    -->
+<html lang="en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <link rel="stylesheet" href="">
+        <style></style>
+        <script>
+            function image(imageFile) {
+                var node = document.createElement("img");
+                node.id = "mainImage";
+                node.src = imageFile;
+                node.alt = "Large Image";
+                node.className = "mainImage";
+                largerImage.parentNode.replaceChild(node, largerImage);
+            }
+
+            function clickFunction() {
+                window.open("https://en.wikipedia.org/wiki/Rat","_blank");
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Assignment 10.3: JavaScript - Part 2</h1>
+        <hr />
+        <div>
+            <a href="#"
+               onmouseover="rats.src = 'images/real_rat.png';"
+               onmouseout="rats.src='images/cartoon_rat.png';"
+               onclick="clickFunction();">
+                <img border="0" name="rats" src="images/cartoon_rat.png">
+            </a>
+            <p> The Rat</p>
+        </div>
+        <hr />
+    </body>
+</html>
+
+
+
+
