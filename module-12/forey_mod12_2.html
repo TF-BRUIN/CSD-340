@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Truman Forey Module x.x Assignment -->
+<html lang="en">
+	<head>
+		<title>CSD 340 Web Development with HTML and CSS</title>
+		<link rel="stylesheet" href="forey_mod12_2.css">
+		<style></style>
+		<script>
+			function showHOLSummary() {
+				document.getElementById('HOLSummaryText').innerHTML = 
+				`
+					A story about a young man named Johnny Truant,
+					who finds a story about an old man named Zampano,
+					who finds a story about a family named the Navidsons,
+					who learn that the <span style="color:blue">house</span>
+					they just moved into is bigger on the inside
+					than it is on the outside.
+					And the labyrinth only grows from there.
+				`
+			}
+
+			function showMartianSummary() {
+				document.getElementById('MartianSummaryText').innerHTML =
+				`
+					In the near future, an astronaut named Mark Watney
+					is stranded on Mars after an extreme dust storm, and
+					must survive starvation and	the extreme elements of
+					Mars while trying to get and maintain contact
+					with NASA to organize his rescue.
+				`
+			}
+
+			function showBOBSummary() {
+				if (confirm("You really don't want to know.") == false) {
+                    TrustMe()
+				}
+			}
+
+			function TrustMe() {
+                if (confirm("Trust me.") == false) {
+                    TrustMe()
+                }
+			}
+
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Assignment 4.2: Build a Web Page Exercise - Part 4, Updated</h1>
+			<div class="image-gallery">
+				<div class="item1">
+					<h3>House of Leaves</h3>
+					<figure>
+						<img src="images/house_of_leaves.png" alt="House of Leaves Book Cover" style="width:80%">
+						<figcaption>(Author: Mark Z. Danielewski)</figcaption>
+					</figure>
+					<button onclick="showHOLSummary()">Summary</button>
+					<div id="HOLSummaryText"></div>
+				</div>
+				<div class="item2">
+					<h3>The Martian</h3>
+					<figure>
+						<img src="images/the_martian.png" alt="The Martian Book Cover" style="width:85%">
+						<figcaption>(Author: Andy Weir)</figcaption>
+					</figure>
+					<button onclick="showMartianSummary()">Summary</button>
+					<div id="MartianSummaryText"></div>
+				</div>
+				<div class="item3">
+					<h3>The Book of Bill</h3>
+					<figure>
+						<img src="images/book_of_bill.png" alt="The Book of Bill Book Cover" style="width:100%">
+						<figcaption>(Author: Alex Hirsch)</figcaption>
+					</figure>
+					<button onclick="showBOBSummary()">Summary</button>
+				</div>
+			</div>
+			<div class="bottom">
+				<a href="../index.html">Index Page</a>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
